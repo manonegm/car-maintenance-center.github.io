@@ -1,0 +1,52 @@
+.user-account {
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	
+	color: red;
+  }
+  
+  .user-btn {
+	background-color: transparent;
+	color: white;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .user-menu {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background-color: transparent;
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	list-style: none;
+  }
+  
+  .user-menu li {
+	margin-bottom: 5px;
+  }
+  
+  .user-menu a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+  }
+  
+  /* .user-menu a:hover {
+	background-color: black;
+  } */
+  
+  .user-menu a:hover {
+ background-color: gray;
+    width: 2;
+    height: 28;
+    border-radius: 35px;
+    /* padding: 10px 10px; */
+    /* transition: .5s ease ; */
+    color:wheat ;
+}
